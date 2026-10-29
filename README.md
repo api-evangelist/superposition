@@ -64,5 +64,137 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Superposition is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by true-ventures) and added to the network as a stub for full-pipeline profiling.
-- https://superposition.ai
+Superposition is an AI-powered recruiter that helps startup founders find and hire top talent. The platform leverages AI agents to autonomously source, evaluate, and engage candidates, enabling founders to focus on building their product and team. It positions itself as an AI headhunter for founding teams, sourcing rare startup talent and streamlining the hiring process.
+
+**Areas:** Company · AI · Recruiting · Startup · Talent · Hiring
+
+## Superposition on APIs.io
+
+Everything profiled for Superposition is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/superposition/](https://apis.io/providers/superposition/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Superposition API](https://apis.io/apis/superposition/superposition-api/) — Authenticated API for managing jobs, candidates, pipelines, and agents.
+- [Superposition API Reference Authenticate and integrate with the Superposition API. API](https://apis.io/apis/superposition/api-api/) — Superposition API Reference Authenticate and integrate with the Superposition API. API as documented publicly: 7 operations. Contract generated from the…
+- [Superposition core API](https://apis.io/apis/superposition/core-api/) — Superposition core API as documented publicly: 31 operations. Contract generated from the documentation by API Evangelist (2026-10-29); not the provider's…
+- [Superposition Guides Set up your workspace, create a role, and run your first search. API](https://apis.io/apis/superposition/guides-api/) — Superposition Guides Set up your workspace, create a role, and run your first search. API as documented publicly: 5 operations. Contract generated from the…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (8)
+
+The data models the API reads and writes.
+
+- [GetApiV1ScopesResponse](https://apis.io/schemas/superposition/superposition-get-api-v1-scopes-response/)
+- [GetSchedulingStringStringAvailabilityResponse](https://apis.io/schemas/superposition/superposition-get-scheduling-string-string-availability-response/)
+- [GetV1JobsResponse](https://apis.io/schemas/superposition/superposition-get-v1-jobs-response/)
+- [PatchApiV1AtsJobLinksLinkidRequest](https://apis.io/schemas/superposition/superposition-patch-api-v1-ats-job-links-linkid-request/)
+- [PatchAtsConnectionsStringResponse](https://apis.io/schemas/superposition/superposition-patch-ats-connections-string-response/)
+- [PostApiV1AgentInvokeResponse](https://apis.io/schemas/superposition/superposition-post-api-v1-agent-invoke-response/)
+- [PostApiV1CandidatesCandidateidAtsPushRequest](https://apis.io/schemas/superposition/superposition-post-api-v1-candidates-candidateid-ats-push-request/)
+- [PostSchedulingStringStringBookingsRequest](https://apis.io/schemas/superposition/superposition-post-scheduling-string-string-bookings-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Superposition Context](https://apis.io/jsonld/superposition/superposition-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Superposition API Rules](https://apis.io/rules/superposition/superposition-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Superposition Authentication](https://apis.io/security/superposition/superposition-authentication/)
+- [Superposition Domain Security](https://apis.io/security/superposition/superposition-domain-security/)
+- [Superposition Vulnerability Disclosure](https://apis.io/security/superposition/superposition-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Superposition Scopes](https://apis.io/scopes/superposition/superposition-scopes/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Superposition Rate Limits](https://apis.io/rate-limits/superposition/superposition-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://superposition.ai)
+- [Documentation](https://docs.superposition.ai)
+- [Getting started](https://docs.superposition.ai/docs/guides/getting-started)
+- [API reference](https://docs.superposition.ai/docs/api)
+- [Pricing](https://www.superposition.ai/pricing)
+- [Changelog](https://www.superposition.ai/changelog)
+- [Blog](https://www.superposition.ai/blogs)
+- [Terms of service](https://www.superposition.ai/terms-of-service)
+- [Privacy policy](https://www.superposition.ai/privacy-policy)
+- [GitHub](https://github.com/superpositionhq)
+- [Status](https://status.superposition.ai)
+
+## API Evangelist rating
+
+**Kin Score 61.7** — strong · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.4 |
+| Contract quality | 54.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 66.3 |
+| Developer ergonomics | 52.4 |
+| Access clarity | 44.7 |
+
+**Agent readiness 45.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 37.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/superposition/](https://apis.io/providers/superposition/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Superposition: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/superposition/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
